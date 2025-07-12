@@ -96,6 +96,8 @@ button:hover {
   color: white;
   padding: 20px;
   text-align: center;
+  position: relative;
+  bottom: -220px;
 }
  * {
       box-sizing: border-box;
@@ -106,8 +108,8 @@ button:hover {
     .carousel-container {
       width: 50%;
       margin-left: 30%;
-      max-width: 700px;
-      height: 500px;
+      margin-right: 30%;
+      height: 30%;
       overflow: hidden;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.2);
@@ -132,5 +134,5 @@ button:hover {
       66%  { margin-left: -200%; }
       100% { margin-left: 0%; }
     }
-    
+
 
