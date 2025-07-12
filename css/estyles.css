@@ -22,6 +22,7 @@ nav a {
   max-width: 1200px;
   margin: auto;
   padding: 20px;
+  margin-right: auto;
 }
 
 .producto {
@@ -72,9 +73,18 @@ button {
   border-radius: 5px;
   font-weight: bold;
 }
+.redes-sociales a {
+  color: white;
+  margin: 20px;
+  font-size: 20px;
+  text-decoration: none;
+}
 
+.redes-sociales a:hover {
+  color: #ff69b4;
+}
 .contacto button:hover {
-  background-color: #d6006c;
+  background-color: #2513b0;
 }
 
 button:hover {
@@ -83,7 +93,44 @@ button:hover {
 .footer-container{
   background: linear-gradient(90deg, #ff0080, #7928ca);
   background-color: #343a40;
-  color: red;
+  color: white;
   padding: 20px;
   text-align: center;
 }
+ * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .carousel-container {
+      width: 50%;
+      margin-left: 30%;
+      max-width: 700px;
+      height: 500px;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      position: relative;
+      background-color: #f0f0f0;
+    }
+
+    .carousel-slide {
+      display: flex;
+      width: 300%;
+      animation: slide 12s infinite;
+    }
+
+    .carousel-slide img {
+      width: 100%;
+      height: auto;
+    }
+
+    @keyframes slide {
+      0%   { margin-left: 0%; }
+      33%  { margin-left: -100%; }
+      66%  { margin-left: -200%; }
+      100% { margin-left: 0%; }
+    }
+    
+
