@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #ff0080, #7928ca);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+  background: white;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  background-color: #ff0080;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contacto button {
+  background-color: #ff0080;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contacto button:hover {
+  background-color: #d6006c;
+}
+
+button:hover {
+  background-color: #e60073;
+}
+.footer-container{
+  background: linear-gradient(90deg, #ff0080, #7928ca);
+  background-color: #343a40;
+  color: red;
+  padding: 20px;
+  text-align: center;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(90deg, #ff0080, #7928ca);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 250px;
+  background: white;
+  text-align: center;
+}
+
+.producto img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+button {
+  background-color: #ff0080;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.contacto form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.contacto input,
+.contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.contacto button {
+  background-color: #ff0080;
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.contacto button:hover {
+  background-color: #d6006c;
+}
+
+button:hover {
+  background-color: #e60073;
+}
+.footer-container{
+  background: linear-gradient(90deg, #ff0080, #7928ca);
+  background-color: #343a40;
+  color: red;
+  padding: 20px;
+  text-align: center;
+}
+.footer-container p {
+  margin: 0;
+  padding: 10px;
+  color: white;
+}
